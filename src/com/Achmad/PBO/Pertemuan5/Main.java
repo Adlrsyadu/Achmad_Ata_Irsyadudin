@@ -23,11 +23,13 @@ public class Main {
             i++;
         }
         for (int j=0; j<etalase.length; j++){
+            System.out.println();
             System.out.println("Barang ke : " + (j+1));
-            etalase[i].ShowInfo();
+            etalase[j].ShowInfo();
         }
         //Memasukan barang ke keranjang
         keranjang[0] = etalase[0];
+        System.out.println();
         System.out.println("Barang di keranjang : ");
         keranjang[0].ShowInfo();
     }
